@@ -208,7 +208,7 @@ const handlePointerMove = (event) => {
 
       // navbar menu animation 
       let t1=gsap.timeline();
-      gsap.from("nav",{
+      t1.from("nav",{
       y:-100,
       opacity:0,
       duration:1,

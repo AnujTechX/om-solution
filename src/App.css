@@ -606,14 +606,16 @@ section {
     rgba(12, 14, 18, 0.88)
   ); */
   border: 1px solid rgba(255, 255, 255, 0.06);
-  transition:
+  /* transition:
     border-color 0.2s ease,
-    transform 0.2s ease;
+    transform 0.2s ease; */
+  transition: all 0.3s ease;
 }
 
 .capability-card:hover {
   transform: translateY(-6px);
   border-color: rgba(255, 155, 74, 0.5);
+  background-color: #9cee05;
 }
 
 .card-icon {
@@ -754,6 +756,12 @@ section {
   border: 1px solid rgba(255, 255, 255, 0.06);
   text-align: center;
   background-color: #ff8c3a;
+  transition: all 0.3s ease-in-out;
+}
+
+.stat-item:hover {
+  background-color: #9cee05;
+  scale: 0.9;
 }
 
 .light .stat-item {
@@ -877,6 +885,12 @@ section {
   font-size: 0.7rem;
   font-weight: 700;
   background-color: #ff9b4a;
+  transition: all 0.3s ease;
+}
+
+.client-strip span:hover {
+  background-color: #9cee05;
+  scale: 1.1;
 }
 
 .cta-banner {
